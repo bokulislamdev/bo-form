@@ -1,0 +1,135 @@
+
+.bo-account-home h4{
+    font-weight: 400;
+    color: #e5a812;
+    font-size: 40px;
+    margin-top: 10px;
+}
+.bo-account-line-steap{
+    content: '';
+    height: 5px;
+    width: 100%;
+    background: #2668AF;
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.bo-account-line-overlay{
+    position: absolute;
+    left: 0;
+    top: -25px;
+    width: 100%;
+/*    background: red;*/
+}
+.bo-account-line-overlay span{
+    font-weight: bold;
+    font-size: 25px;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #2668AF;
+    color: #3F9BD6;
+    border-radius: 50%;
+    display: inline-block;
+    margin:  0 auto !important;
+    
+}
+.bo-account-line-overlay p{
+    color: #A1C4E7;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 10px;
+    max-width: 200px;
+}
+.bo-accont-form-box{
+    background: #E3EBF3;
+    padding: 30px;
+    margin-top: 170px;
+    margin-bottom: -400px;
+}
+.bo-account-form-box2{
+    padding: 30px;
+    background: #ffffff;
+}
+.bo-accont-form-box h6{
+    font-weight: bold;
+    font-size: 25px;
+    color: #0072BC;
+    text-align: center;
+}
+.bo-accont-form-box label span{
+    color: red;
+/*    font-weight: bold;*/
+}
+.bo-accont-form-box input{
+    display: block;
+    width: 100%;
+    border: 1px solid #cccccc;
+    padding: 5px;
+    outline: none;
+}
+.bo-accont-form-box select{
+    display: block;
+    width: 100%;
+    border: 1px solid #cccccc;
+    padding: 5px;
+    outline: none;
+}
+.bo-accont-form-box label{
+    color: #2F3945;
+    margin-bottom: 10px;
+    font-weight: 500;
+    
+}
+.branch_code{
+    display: none;
+}
+.agent_code{
+    
+    display: none;
+}
+.bo-check{
+    width: 30px !important;
+    display: inline-block;
+    margin-top: 5px;
+}
+.checkbox-label{
+    font-weight:400 !important;
+}
+.bo-accont-form-box p{
+    font-size: 12px;
+    line-height: 14px;
+    padding-top: 5px;
+}
+.bo_link_content{
+    display: none;
+}
+.bo-open-btn a{
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    margin: 0 5px;
+}
+.bo-open-btn .back{
+    border: 1px solid yellow;
+    color: yellow;
+    font-weight: 500;
+}
+.bo-open-btn .next{
+    border: 1px solid #104892;
+    color: #104892;
+    font-weight: 500;
+}
+.bo-open-btn .submit{
+    background: #104892;
+    color: #ffffff;
+}
+.bo-account-line-overlay span.active-bo{
+    background: #E5A812;
+    color: #ffffff;
+}

@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!--    boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section class="bo-account-home py-5" style="background-image: url(image/banner-inner.jpg); background-position: center; background-repeat: no-repeat; background-size: cover;">
+        <div class="container">
+            <div class="text-center pb-4">
+                <img src="image/logo%20(2).png" alt="">
+                <h4>Application for Account Opening</h4>
+            </div>
+
+            <div class="bo-account-line-steap mt-5">
+                <div class="bo-account-line-overlay d-flex justify-content-between text-center">
+                    <div>
+                        <span class="active-bo">1</span>
+                        <p>Contact Informatins</p>
+                    </div>
+                    <div>
+                        <span>2</span>
+                        <p>PRINCIPLE APPLICANT PERSONAL INFORMATION</p>
+                    </div>
+                    <div>
+                        <span>3</span>
+                        <p>SECOND APPLICANT INFORMATION &NOMINEE INFORMATION</p>
+                    </div>
+                    <div>
+                        <span>4</span>
+                        <p>Contact Informatins</p>
+                    </div>
+
+                </div>
+
+            </div>
+                
+            <div class="bo-accont-form-box">
+                <div class="bo-account-form-box2">
+                    <h6>NATURE OF ACCOUNT</h6>
+                <div class="form mt-5">
+                    <div class="row">
+                        <div class="col-12 col-md-6 py-2">
+                            <label for="#"><span>*</span>Mobile Number :</label>
+                            <input type="text" placeholder="Enter Mobile Number">
+                        </div>
+                        <div class="col-12 col-md-6 py-2">
+                            <label for="#"><span>*</span>Email :</label>
+                            <input type="text" placeholder="Enter Mobile Number">
+                        </div>
+                        <div class="col-12 col-md-6 py-2">
+                            <label for="#"><span>*</span>Branch / Agent:</label>
+                            <select name="#" id="branch_agent">
+                                <option>Select Branch / Agent</option>
+                                <option value="2">Branch</option>
+                                <option value="3">Agent</option>
+                            </select>
+                        </div>
+                        <div class="col-12 col-md-6 py-2">
+                            <div class="branch_code">
+                                <label for="#"><span>*</span>Branch Code :</label>
+                                <input type="text" placeholder="xxxxxxxxxx">
+                            </div>
+                            <div class="agent_code">
+                                <label for="#"><span>*</span>Agent Code :</label>
+                                <input type="text" placeholder="xxxxxxxxxx">
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 py-2">
+                            <label for="#"><span>*</span>Resident Type:</label>
+                            <div class="d-flex">
+                                <input type="checkbox" id="Resident" name="resident_type" class="bo-check">
+                                <label for="Resident" class="checkbox-label">Resident of Bangladesh(RB)</label>
+                            </div>
+                            <div class="d-flex">
+                                <input type="checkbox" id="Non-resident" name="resident_type" class="bo-check">
+                                <label for="Non-resident" class="checkbox-label">Non-resident of Bangladesh(NRB)</label>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 py-2">
+                            <label for="#"><span>*</span>Account type :</label>
+                            <div class="d-flex">
+                                <input type="checkbox" id="Individual" name="resident_type" class="bo-check">
+                                <label for="Individual" class="checkbox-label">Individual Account</label>
+                            </div>
+                            <div class="d-flex">
+                                <input type="checkbox" id="Joint" name="resident_type" class="bo-check">
+                                <label for="Joint" class="checkbox-label">Joint Account</label>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 py-2">
+                            <label for="#"><span>*</span>Principle Applicant NID Number :</label>
+                            <input type="text" placeholder="**********">
+                            <p>Only 10 or 17 digit NID Number is accepted, If you have 13 digit NID number then you should add your birth year at the front of your NID number to make it 17 digit.</p>
+                        </div>
+                        <div class="col-12 col-md-6 py-2">
+                            <label for="#"><span>*</span>Birthday Date :</label>
+                            <input type="date">
+                            <div class="d-flex mt-3">
+                                <input type="checkbox" id="bo-link" name="resident_type" class="bo-check bo_link">
+                                <label for="bo-link" class="checkbox-label"> Bo link</label>
+                            </div>
+                            <div class="bo_link_content">
+                                <div class="py-2">
+                                    <label for="#"><span>*</span>Bo No :</label>
+                                    <input type="text" placeholder="**********">
+                                </div>
+                                <div class="py-2">
+                                    <label for="#"><span>*</span> Bo attachment :</label>
+                                    <input type="file">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row py-5">
+                        <div class="col-12 mb-4">
+                            <h6>PRINCIPLE APPLICANT PERSONAL INFORMATION</h6>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="py-2">
+                                <label for="#"><span>*</span>First Name :</label>
+                                <input type="text" placeholder="First Name ">
+                            </div>
+                            <div class="py-2">
+                                <label for="#"><span>*</span>Last Name :</label>
+                                <input type="text" placeholder="Last Name">
+                            </div>
+                            <div class="py-2">
+                                <label for="#"><span>*</span>Gender :</label>
+                                <select name="" id="">
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                </select>
+                            </div>
+                            <div class="py-2">
+                                <label for="#"><span>*</span>Date of Birth :</label>
+                                <input type="text">
+                            </div>
+                            <div class="py-2">
+                                <label for="#"><span>*</span>Father Or Husband Name :</label>
+                                <input type="text" placeholder="Father Or Husband Name">
+                            </div>
+                            <div class="py-2">
+                                <label for="#"><span>*</span> Mother Name :</label>
+                                <input type="text" placeholder="Mother Name">
+                            </div>
+                            <div class="py-2">
+                                <label for="#"> Telephone :</label>
+                                <input type="text" placeholder="Telephone">
+                            </div>
+                            <div class="py-2">
+                                <label for="#"> Fax :</label>
+                                <input type="text" placeholder="">
+                            </div>
+                            <div class="py-2">
+                                <label for="#"> TIN :</label>
+                                <input type="text" placeholder="Fax">
+                            </div>
+
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="py-2">
+                                <label for="#"><span>*</span>Address 1 :</label>
+                                <input type="text" placeholder="Address 1">
+                            </div>
+                            <div class="py-2">
+                                <label for="#"><span>*</span>Address 2 :</label>
+                                <input type="text" placeholder="Address 2">
+                            </div>
+                            <div class="py-2">
+                                <label for="#"><span>*</span>Address 3 :</label>
+                                <input type="text" placeholder="Address 3">
+                            </div>
+                            <div class="py-2">
+                                <label for="#"><span>*</span>Occupation :</label>
+                                <select name="" id="">
+                                    <option value="">select Occupation</option>
+                                    <option value="">Govt. Service</option>
+                                    <option value="">Service</option>
+                                    <option value="">Bisness</option>
+                                    <option value="">Teacher</option>
+                                    <option value="">Housewife</option>
+                                </select>
+                            </div>
+                            <div class="py-2">
+                                <label for="#"><span>*</span>Country :</label>
+                                <select name="" id="">
+                                    <option value="">Bangladesh</option>
+
+                                </select>
+                            </div>
+                            <div class="py-2">
+                                <label for="#"><span>*</span>State Or Division :</label>
+                                <select name="" id="">
+                                    <option value="" selected="">Select State Or Division ....</option>
+                                    <option value="CHATTOGRAM">CHATTOGRAM</option>
+                                    <option value="RAJSHAHI">RAJSHAHI</option>
+                                    <option value="KHULNA">KHULNA</option>
+                                    <option value="BARISHAL">BARISHAL</option>
+                                    <option value="SYLHET">SYLHET</option>
+                                    <option value="DHAKA">DHAKA</option>
+                                    <option value="RANGPUR">RANGPUR</option>
+                                    <option value="MYMENSINGH">MYMENSINGH</option>
+                                </select>
+                            </div>
+
+                            <div class="py-2">
+                                <label for="#"><span>*</span>State Or Division :</label>
+                                <select id="CITY" name="CITY" class="form-control select_form">
+                                    <option value="" selected="">Select City ....</option>
+                                    <option value="CUMILLA">CUMILLA</option>
+                                    <option value="FENI">FENI</option>
+                                    <option value="BRAHMANBARIA">BRAHMANBARIA</option>
+                                    <option value="RANGAMATI">RANGAMATI</option>
+                                    <option value="NOAKHALI">NOAKHALI</option>
+                                    <option value="CHANDPUR">CHANDPUR</option>
+                                    <option value="LAKSHMIPUR">LAKSHMIPUR</option>
+
+                                </select>
+                            </div>
+                            <div class="py-2">
+                                <label for="#"><span>*</span>Zip Code :</label>
+                                <input type="text" placeholder="Zip Code">
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="row py-5">
+                        <div class="col-12 mb-4">
+                            <h6>PRINCIPLE APPLICANT PASSPORT</h6>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="py-2">
+                                <label for="#">Passport Number :</label>
+                                <input type="text" placeholder="Passport Number">
+                            </div>
+                            <div class="py-2">
+                                <label for="#">Passport Issue Date :</label>
+                                <input type="date">
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6">
+                            <div class="py-2">
+                                <label for="#">Passport Issue Place :</label>
+                                <input type="text" placeholder="Passport Issue Place">
+                            </div>
+                            <div class="py-2">
+                                <label for="#">Passport Expiry Date :</label>
+                                <input type="date">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row py-5">
+                        <div class="col-12 mb-4">
+                            <h6>NOMINEE INFORMATION</h6>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="py-2">
+                                <label for="#">Nominee Name :</label>
+                                <input type="text" placeholder="Nominee Name">
+                            </div>
+                            <div class="py-2">
+                                <label for="#">Nominee Relation</label>
+                                <select name="" id="">
+                                    <option value="">Father</option>
+                                    <option value="">Mother</option>
+                                    <option value="">Sister</option>
+                                    <option value="">Brother</option>
+                                    <option value="">Son</option>
+                                    <option value="">Spouse</option>
+                                    <option value="">Doughter</option>
+                                </select>
+                            </div>
+                            <div class="py-2">
+                                <label for="#">NID :</label>
+                                <input type="text" placeholder="NID">
+                            </div>
+
+                        </div>
+
+                        <div class="col-12 col-md-6">
+                            <div class="py-2">
+                                <label for="#">Nominee Date Of Birth :</label>
+                                <input type="date">
+                            </div>
+                            <div class="py-2">
+                                <label for="#">Nominee Percentage :</label>
+                                <input type="text" placeholder="Nominee Percentage">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row py-5">
+                        <div class="col-12 mb-4">
+                            <h6>BANK AND PAYMENT INFORMATION</h6>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="py-2">
+                                <label for="#"><span>*</span> Bank Routing Number :</label>
+                                <input type="text" placeholder="Bank Routing Number">
+                            </div>
+
+                            <div class="py-2">
+                                <label for="#">Name of Your Bank :</label>
+                                <input type="text" placeholder="Name of Your Bank">
+                            </div>
+                            <div class="py-2">
+                                <label for="#">BO Account Fee(in Amount) :</label>
+                                <input type="text" placeholder="400">
+                            </div>
+                            <div class="py-2">
+                                <label for="#">Total (in Amount) :</label>
+                                <input type="text" placeholder="414">
+                            </div>
+
+                        </div>
+
+                        <div class="col-12 col-md-6">
+                            <div class="py-2">
+                                <label for="#"><span>*</span> Bank Account Number :</label>
+                                <input type="text" placeholder="Bank Account Number">
+                            </div>
+                            <div class="py-2">
+                                <label for="#">Name of Your Branch :</label>
+                                <input type="text" placeholder="Name of Your Branch">
+                            </div>
+                            <div class="py-2">
+                                <select id="" name="">
+                                    <option value="0">Visa, MasterCard, Mobile/Internet Banking</option>
+                                    <option value="1">American Express Card</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row py-5">
+                        <div class="col-12 mb-4">
+                            <h6>SECOND APPLICANT INFORMATION</h6>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="py-2">
+                                <label for="#">First Name : </label>
+                                <input type="text" placeholder="First Name">
+                            </div>
+                            <div class="py-2">
+                                <label for="#">NID : </label>
+                                <input type="text" placeholder="NID">
+                            </div>
+
+                        </div>
+
+                        <div class="col-12 col-md-6">
+                            <div class="py-2">
+                                <label for="#"><span>*</span> Last Name :</label>
+                                <input type="text" placeholder="Last Name">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row py-5">
+                        <div class="col-12 mb-4">
+                            <h6>PRINCIPLE ATTACHMENT</h6>
+                        </div>
+                        <div class="col-12 col-md-6 py-2">
+                            <label for="#">Upload Photo : </label>
+                            <input type="file">
+                        </div>
+                        <div class="col-12 col-md-6 py-2">
+                            <label for="#">NID Front Side : </label>
+                            <input type="file">
+                        </div>
+                        <div class="col-12 col-md-6 py-2">
+                            <label for="#">NID Back Side : </label>
+                            <input type="file">
+                        </div>
+                        <div class="col-12 col-md-6 py-2">
+                            <label for="#">Upload signature : </label>
+                            <input type="file">
+                        </div>
+                        <div class="col-12 col-md-6 py-2">
+                            <label for="#">Upload TIN : </label>
+                            <input type="file">
+                        </div>
+                        <div class="col-12 col-md-6 py-2">
+                            <label for="#">Upload cheque leaf : </label>
+                            <input type="file">
+                        </div>
+                    </div>
+                    
+                    <div class="row py-5">
+                        <div class="col-12 mb-4">
+                            <h6>NOMINEE INFORMATION</h6>
+                        </div>
+                        <div class="col-12 col-md-6 py-2">
+                            <label for="#">Upload Photo : </label>
+                            <input type="file">
+                        </div>
+                        <div class="col-12 col-md-6 py-2">
+                            <label for="#">NID Front Side : </label>
+                            <input type="file">
+                        </div>
+                        <div class="col-12 col-md-6 py-2">
+                            <label for="#">NID Back Side : </label>
+                            <input type="file">
+                        </div>
+                        <div class="col-12 col-md-6 py-2">
+                            <label for="#">Upload signature : </label>
+                            <input type="file">
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="bo-open-btn text-center mt-3">
+                        <a href="#" class="back">Back</a>
+                        <a href="#" class="next">Next</a>
+                        <a href="#" class="next submit">Submit</a>
+                    </div>
+                    
+                    
+                </div>
+                </div>
+            </div>    
+            
+        </div>
+        
+    </section>
+
+
+    <!--    boostrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script>
+        let branch_agent = document.querySelector('#branch_agent');
+        let branch_code = document.querySelector('.branch_code');
+        let agent_code = document.querySelector('.agent_code');
+        let bo_link = document.querySelector('.bo_link');
+        let bo_link_content = document.querySelector('.bo_link_content');
+
+        branch_agent.addEventListener('change', function() {
+
+            if (branch_agent.value == 2) {
+                branch_code.style.display = "block"
+                agent_code.style.display = "none"
+            } else if (branch_agent.value == 3) {
+                branch_code.style.display = "none"
+                agent_code.style.display = "block"
+            }
+        })
+
+
+
+        bo_link.addEventListener('click', function() {
+            if (bo_link.checked) {
+                bo_link_content.style.display = "block"
+            } else {
+                bo_link_content.style.display = "none"
+            }
+        })
+
+    </script>
+</body>
+
+</html>
